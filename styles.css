@@ -24,10 +24,14 @@ header {
     color: #2C3E50;
 }
 
+nav {
+    display: inline-block; /* Ensure the nav is inline and centered */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 10px; /* Margin below nav links */
+    margin-bottom: 10px;
 }
 
 nav ul li {
