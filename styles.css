@@ -56,10 +56,12 @@ main {
 }
 
 .profile-img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
+    width: 150px;      
+    height: 150px;        
+    border-radius: 50%;    
+    object-fit: cover;    
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .hero h2 {
