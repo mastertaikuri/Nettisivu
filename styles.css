@@ -195,26 +195,26 @@ main {
 
 .contact-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* This ensures form fields stack vertically */
     gap: 15px;
+    align-items: flex-start; /* Align labels and inputs to the left */
 }
 
 .contact-form label {
-    text-align: left;
     font-size: 1rem;
 }
 
 .contact-form input,
 .contact-form textarea {
+    width: 100%; /* Make inputs and textarea full-width */
     padding: 10px;
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .contact-form button {
+    align-self: center; /* Center the submit button */
     padding: 10px 20px;
     background-color: #2980B9;
     color: white;
@@ -240,4 +240,3 @@ main {
 .contact a:hover {
     text-decoration: underline;
 }
-
