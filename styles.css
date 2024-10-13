@@ -18,7 +18,7 @@ header {
 .header-content h1 {
     font-size: 2.5rem;
     color: #2C3E50;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -46,68 +46,59 @@ hr {
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: calc(80vh - 150px);
 }
 
 .hero {
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
+    margin-bottom: 50px;
 }
 
-.profile-img {
-    width: 150px;      
-    height: 150px;        
-    border-radius: 50%;    
-    object-fit: cover;    
-    margin-bottom: 20px;
+.projects {
+    display: flex;
+    flex-direction: column;   /* Stack the projects vertically */
+    align-items: center;      /* Center align the projects */
+    gap: 30px;                /* Add space between each project */
+    width: 100%;              /* Take full width for container */
 }
 
-.hero h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+.project {
+    text-align: center;
+    width: 300px;             /* Same width for each project */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.hero p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+.project img {
+    width: 100%;              /* Full width within the project box */
+    height: auto;
+    border-radius: 8px;        /* Optional: rounded corners for the image */
+}
+
+.project h3 {
+    margin: 15px 0 10px;
+}
+
+.project p {
+    font-size: 1rem;
     color: #7F8C8D;
 }
 
-.cta-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
 .cta {
+    display: inline-block;
     padding: 10px 20px;
     background-color: #2980B9;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
-    text-align: center;
+    margin-top: 10px;
 }
 
 .cta:hover {
     background-color: #1f5a87;
-}
-
-.projects {
-    display: block;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.project {
-    display: block;
-    margin: 0 auto 30px;
-    text-align: center;
-    max-width: 300px;
-}
-
-.project img {
-    width: 70%;
-    height: auto;
 }
