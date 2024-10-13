@@ -12,13 +12,12 @@ body {
 
 header {
     text-align: center;
-    background-color: #2C3E50; /* Matching color for the top bar */
     padding: 20px;
 }
 
 .header-content h1 {
     font-size: 2.5rem;
-    color: #ECF0F1;
+    color: #2C3E50;
 }
 
 nav ul {
@@ -32,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ECF0F1;
+    color: #2980B9;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -40,7 +39,7 @@ nav ul li a {
 hr {
     width: 60%;
     margin: 10px auto;
-    border: 1px solid #ECF0F1;
+    border: 1px solid #2980B9;
 }
 
 main {
@@ -52,6 +51,15 @@ main {
 
 .hero {
     text-align: center;
+    max-width: 600px;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #e0e0e0;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
 }
 
 .hero h2 {
@@ -78,6 +86,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
+    text-align: center;
 }
 
 .cta:hover {
