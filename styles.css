@@ -6,88 +6,69 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
     background-color: #F7F9FA;
     color: #2C3E50;
 }
 
 header {
-    text-align: center; /* Center the content */
-    background-color: #2C3E50; /* Dark background as seen in your screenshot */
+    text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #ccc;
-    color: #fff; /* White text for the header */
 }
 
 .header-content h1 {
-    font-size: 3rem; /* Large font size for Ali Laine */
-    margin-bottom: 10px;
-    color: #ECF0F1; /* Light text color */
-}
-
-nav {
-    margin: 0 auto; /* Ensure navigation is centered */
+    font-size: 2.5rem;
+    color: #2C3E50;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: center; /* Center the navigation items */
-    margin-bottom: 10px;
 }
 
 nav ul li {
+    display: inline-block;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: #ECF0F1; /* White navigation text */
+    color: #2980B9;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    color: #1ABC9C; /* Hover effect with a light color */
-}
-
 hr {
-    width: 80%;
-    margin: 20px auto;
-    border: 1px solid #ccc;
+    width: 60%;
+    margin: 10px auto;
+    border: 1px solid #2980B9;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 200px); /* Adjust for header height */
+    height: calc(100vh - 150px);
 }
 
 .hero {
     text-align: center;
     max-width: 600px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
 }
 
-.hero .image-placeholder {
+.image-placeholder {
     width: 150px;
     height: 150px;
     background-color: #e0e0e0;
-    margin: 0 auto 20px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
 }
 
 .hero h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #2C3E50;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
     color: #7F8C8D;
 }
@@ -95,16 +76,17 @@ main {
 .cta-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .cta {
     padding: 10px 20px;
     background-color: #2980B9;
-    color: #fff;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
+    text-align: center;
 }
 
 .cta:hover {
