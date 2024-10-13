@@ -61,7 +61,6 @@ main {
     border-radius: 50%;    
     object-fit: cover;    
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .hero h2 {
