@@ -96,9 +96,18 @@ main {
 
 .projects {
     display: block;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .project {
     display: block;
-    margin-bottom: 30px; 
-    text-align: center;  
+    margin: 0 auto 30px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
