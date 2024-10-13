@@ -55,12 +55,11 @@ main {
     max-width: 600px;
 }
 
-.image-placeholder {
+.profile-img {
     width: 150px;
-    height: 150px;
-    background-color: #e0e0e0;
-    margin: 0 auto 20px auto;
-    border: 1px solid #ccc;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .hero h2 {
