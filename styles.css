@@ -96,7 +96,7 @@ main {
 
 .projects {
     display: block;
-    max-width: 800px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -104,10 +104,10 @@ main {
     display: block;
     margin: 0 auto 30px;
     text-align: center;
-    max-width: 600px;
+    max-width: 300px;
 }
 
 .project img {
-    width: 100%;
+    width: 5000%;
     height: auto;
 }
