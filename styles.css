@@ -137,3 +137,41 @@ main {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
+
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cv h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cv h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.cv ul li ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cv ul li ul li {
+    font-size: 1rem;
+    color: #7F8C8D;
+}
