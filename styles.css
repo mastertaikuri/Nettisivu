@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #7F8C8D;
+    background-color: #ECF0F1;
+}
+
+header {
+    background-color: #2C3E50;
+    padding: 1rem;
+}
+
+nav h1 {
+    color: #ECF0F1;
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    padding: 4rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2980B9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2980B9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
